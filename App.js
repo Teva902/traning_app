@@ -7,8 +7,7 @@ function App() {
   return (
     <View style={styles.container}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <Text style={styles.text}>Hi Ahmed  you are gamed</Text>
-      <Text style={styles.text}>Hi Ahmed  you are gamed</Text>
+      <Text style={styles.text}>Hi Ahmed you are gamed</Text>
     </View>
   );
 }
@@ -19,12 +18,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center', // علشان النص يبقى في النص
     alignItems: 'center',
     backgroundColor: '#fff',
-
   },
   text: {
     fontSize: 20,
     fontWeight: 'bold',
-    color:'red'
   },
 });
 
