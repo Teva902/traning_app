@@ -9,6 +9,7 @@ function App() {
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <Text style={styles.text}>Hi Ahmed you are gamed</Text>
       <Text style={styles.text}>Hi Ahmed you are gamed</Text>
+      <Text style={styles.text}>Hi Ahmed you are gamed</Text>
     </View>
   );
 }
